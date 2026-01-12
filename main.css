@@ -1,0 +1,1092 @@
+
+
+* {
+
+    margin: 0;
+
+    padding: 0;
+
+    box-sizing: border-box; 
+
+}
+
+
+body {
+
+    font-family: 'Montserrat', sans-serif;
+
+    background-color: #111111; 
+
+    color: #fff;
+
+    line-height: 1.6;
+
+}
+
+
+a {
+
+    text-decoration: none; 
+
+    color: inherit; 
+
+    transition: color 0.3s; 
+
+}
+
+
+
+a:hover {
+
+    color: #a0a0a0; 
+
+}
+
+
+
+h1 {
+
+    font-size: 20px;
+
+    font-weight: 800;
+
+    letter-spacing: 2px;
+
+}
+
+
+
+
+
+h2 {
+
+    font-family: 'Playfair Display', serif; 
+
+    font-size: 80px;
+
+    font-weight: 700;
+
+    line-height: 1.1;
+
+    margin-bottom: 20px;
+
+}
+
+
+
+h3 {
+
+    font-family: 'Playfair Display', serif;
+
+    font-size: 48px;
+
+    font-weight: 700;
+
+    margin-bottom: 15px;
+
+}
+
+ul {
+
+    list-style: none; /* Menghapus bullet point */
+
+}
+
+
+
+.audi {
+
+    max-width: 1200px;
+
+    margin: 0 auto;
+
+    padding: 0 20px;
+
+}
+
+
+
+
+.bmw {
+
+    position: fixed;
+
+    top: 0;
+
+    left: 0;
+
+    width: 100%;
+
+    z-index: 1000; 
+
+    background-color: rgba(101, 101, 101, 0.5);
+
+    padding: 20px 0;
+
+}
+
+
+
+.bmw .audi {
+
+    display: flex;
+
+    justify-content: space-between;
+
+    align-items: center;
+
+}
+
+
+.ferrari {
+
+    flex-grow: 1; 
+
+    margin-left: 50px;
+
+}
+
+
+.porsche {
+
+    display: flex;
+
+    gap: 30px; 
+
+}
+
+
+.lexus {
+
+    font-size: 14px;
+
+    text-transform: uppercase;
+
+}
+
+
+
+/* Destination */
+
+
+.toyota {
+
+    height: 100vh;
+
+    background: url('Desain\ tanpa\ judul\ \(10\).png') no-repeat center center/cover;
+
+    display: flex;
+
+    flex-direction: column;
+
+    justify-content: center;
+
+    align-items: flex-start;
+
+    padding-left: 10%;
+
+    position: relative;
+
+    box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.4);
+
+}
+
+
+
+.honda {
+
+    max-width: 600px;
+
+    padding-top: 150px;
+
+}
+
+
+
+.suzuki {
+
+    font-size: 14px;
+
+    color: #a0a0a0;
+
+    text-transform: uppercase;
+
+    letter-spacing: 3px;
+
+    display: block;
+
+    margin-bottom: 10px;
+
+    font-weight: 600;
+
+}
+
+
+
+.mercedes {
+
+    position: fixed;
+
+    right: 30px;
+
+    top: 50%;
+
+    transform: translateY(-50%);
+
+    z-index: 999;
+
+    display: flex;
+
+    flex-direction: column;
+
+    gap: 15px;
+
+    text-align: right;
+
+}
+
+
+
+.nissan {
+
+    font-size: 20px;
+
+    font-weight: 800;
+
+    color: #555; 
+
+
+}
+
+.nissan:first-of-type {
+
+    color: #fff; 
+
+}
+
+
+
+.volvo {
+
+    display: grid;
+
+    grid-template-columns: 1fr 1fr;
+
+    min-height: 80vh;
+
+    padding: 100px 10%;
+
+    gap: 50px;
+
+    align-items: center;
+
+    background-image: url(Desain\ tanpa\ judul\ \(7\).png);
+    
+    background-size: cover;
+
+    position: relative; 
+
+}
+
+
+
+.jeep {
+
+    display: grid;
+
+    grid-template-columns: 1fr 1.2fr;
+
+    min-height: 80vh;
+
+    padding: 100px 10%;
+
+    gap: 50px;
+
+    align-items: center;
+
+    background-image: url(Desain\ tanpa\ judul\ \(9\).png);
+    
+    background-size: cover;
+
+    position: relative;
+
+}
+
+
+
+.pajero {
+
+    display: grid;
+
+    grid-template-columns: 1fr 1.2fr;
+
+    min-height: 80vh;
+
+    padding: 100px 10%;
+
+    gap: 50px;
+
+    align-items: center;
+
+    background-color: #000;
+
+    position: relative;
+
+}
+
+
+
+.pagani {
+
+    display: grid;
+
+    grid-template-columns: 1fr 1.2fr;
+
+    min-height: 80vh;
+
+    padding: 100px 10%;
+
+    gap: 50px;
+
+    align-items: center;
+
+    background-image: url(Desain\ tanpa\ judul\ \(5\).png);
+
+    background-size: cover;
+
+    position: relative;
+
+}
+
+
+
+.fortuner {
+
+    display: grid;
+
+    grid-template-columns: 1fr 1.2fr;
+
+    min-height: 80vh;
+
+    padding: 100px 10%;
+
+    gap: 50px;
+
+    align-items: center;
+
+    background-image: url(Desain\ tanpa\ judul\ \(4\).png);
+
+    background-size: cover;
+
+    position: relative;
+
+}
+
+
+.hyundai, .chrysler {
+
+    position: relative;
+
+    z-index: 2;
+
+}
+
+
+
+.chevrolet-readmore {
+
+    font-size: 14px;
+
+    font-weight: 600;
+
+    display: inline-block;
+
+    padding: 5px 0;
+
+    border-bottom: 1px solid #fff;
+
+    text-transform: uppercase;
+
+    margin-top: 15px;
+
+}
+
+
+.fiat {
+    height: 500px;
+    background: url('Desain\ tanpa\ judul\ \(6\).png') no-repeat center center/cover;
+}
+
+.acura {
+    height: 500px;
+    background: url('Desain\ tanpa\ judul\ \(8\).png') no-repeat center center/cover;
+}
+
+
+.volkswagen-right {
+    height: 500px;
+    background: url('Desain\ tanpa\ judul\ \(3\).png') no-repeat center center/cover;
+}
+
+
+.gmc-left {
+    height: 500px;
+    background: url('Desain\ tanpa\ judul\ \(2\).png') no-repeat center center/cover;
+}
+
+
+
+/* FOOTER */
+
+.tesla {
+    background-color: #111; 
+    padding: 30px 0; 
+    text-align: center;
+    border-top: 1px solid #333; 
+}
+
+
+.tesla .audi {
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+    flex-wrap: wrap; 
+    font-size: 14px;
+}
+
+
+.tesla p {
+    margin: 0;
+    color: #a0a0a0;
+}
+
+
+.footer-links a {
+    color: #fff;
+    margin: 0 10px;
+    font-weight: 600;
+}
+
+
+.pemisah {
+    color: #333;
+}
+
+
+
+
+/* list pariwisata */
+
+
+.anggur {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 40px;
+    padding: 100px 10%;
+    background-color: #111;
+}
+
+
+.stroberi {
+    display: block;
+    background-color: #000;
+    border-radius: 8px;
+    overflow: hidden;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+.stroberi:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.5);
+}
+
+
+.naga{
+    height: 250px;
+    background: url('Gunung\ Panderman.jpeg') no-repeat center center/cover;
+}
+.pepaya {
+    height: 250px;
+    background: url('Gunung\ Arjuno\,\ Jawa\ Timur.jpeg') no-repeat center center/cover;
+}
+
+.naga2{
+    height: 250px;
+    background: url(Coban\ Rondo.jpeg) no-repeat center center/cover;
+}
+
+.pepaya2{
+    height: 250px;
+    background: url(Coban\ Talun.jpeg) no-repeat center center/cover;
+}
+
+.naga3{
+    height: 250px;
+    background: url(Panorama\ Keindahan\ Pantai\ Teluk\ Asmara\ Malang\,\ Raja\ Ampatnya\ Jawa\ Timur\ 2023.jpeg) no-repeat center center/cover;
+}
+.pepaya3{
+    height: 250px;
+    background: url('Goa\ Cina.png') no-repeat center center/cover;
+}
+
+.naga4{
+    height: 250px;
+    background: url('Pantai\ Batu\ Bengkung\,\ Menikmati\ Panorama\ Alam\ Sembari\ Kulineran\ di\ Malang.jpeg') no-repeat center center/cover;
+}
+.pepaya4{
+    height: 250px;
+    background: url('Watu\ Leter.png') no-repeat center center/cover;
+}
+.naga5{
+    height: 250px;
+    background: url('Desain\ tanpa\ judul\ \(3\).png') no-repeat center center/cover;
+}
+.pepaya5{
+    height: 250px;
+    background: url('Desain\ tanpa\ judul\ \(2\).png') no-repeat center center/cover;
+}
+
+.kiwi {
+    padding: 20px;
+}
+.jeruk {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 24px;
+    margin-bottom: 5px;
+}
+.delima {
+    color: #a0a0a0;
+    font-size: 14px;
+}
+
+
+/* detail Pariwwisata */
+
+.rawon {
+    padding-top: 120px;
+    min-height: 100vh;
+}
+.soto {
+    padding: 80px 10%;
+}
+.gudeg {
+    font-size: 60px;
+    margin-bottom: 40px;
+    text-align: center;
+}
+.nasigoreng {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 50px;
+    align-items: flex-start;
+    background-color: #1a1a1a;
+    padding: 40px;
+    border-radius: 10px;
+}
+.rendang {
+    height: 500px;
+    background: url('Desain\ tanpa\ judul\ \(3\).png') no-repeat center center/cover;
+    border-radius: 8px;
+}
+
+.rendang2 {
+    height: 500px;
+    background: url('Desain\ tanpa\ judul\ \(2\).png') no-repeat center center/cover;
+    border-radius: 8px;
+}
+
+.rendang3 {
+    height: 500px;
+    background: url('Panorama\ Keindahan\ Pantai\ Teluk\ Asmara\ Malang\,\ Raja\ Ampatnya\ Jawa\ Timur\ 2023.jpeg') no-repeat center center/cover;
+    border-radius: 8px;
+}
+
+.rendang4 {
+    height: 500px;
+    background: url('Goa\ Cina.png') no-repeat center center/cover;
+    border-radius: 8px;
+}
+
+.rendang5 {
+    height: 500px;
+    background: url('Pantai\ Batu\ Bengkung\,\ Menikmati\ Panorama\ Alam\ Sembari\ Kulineran\ di\ Malang.jpeg') no-repeat center center/cover;
+    border-radius: 8px;
+}
+
+.rendang6 {
+    height: 500px;
+    background: url('Watu\ Leter.png') no-repeat center center/cover;
+    border-radius: 8px;
+}
+
+.rendang7 {
+    height: 500px;
+    background: url('Gunung\ Panderman.jpeg') no-repeat center center/cover;
+    border-radius: 8px;
+}
+
+.rendang8 {
+    height: 500px;
+    background: url('Gunung\ Arjuno\,\ Jawa\ Timur.jpeg') no-repeat center center/cover;
+    border-radius: 8px;
+}
+
+.rendang9 {
+    height: 500px;
+    background: url('Coban\ Rondo.jpeg') no-repeat center center/cover;
+    border-radius: 8px;
+}
+
+.rendang10 {
+    height: 500px;
+    background: url('Coban\ Talun.jpeg') no-repeat center center/cover;
+    border-radius: 8px;
+}
+
+.sate {
+    padding-top: 20px;
+}
+
+.bakso {
+    color: #ccc;
+    margin-bottom: 30px;
+}
+.sayur-asem {
+    color: #fff;
+    display: block;
+    margin-bottom: 7px;
+}
+.lontong-sayur {
+    display: inline-block;
+    background-color: #257fd3;
+    color: #000;
+    font-weight: bold;
+    padding: 12px 25px;
+    border-radius: 50px;
+    margin-top: 30px;
+    transition: background-color 0.3s;
+}
+
+.bakmoy {
+    display: inline-block;
+    background-color: #818181; 
+    color: #000;
+    font-weight: bold;
+    padding: 12px 25px;
+    border-radius: 50px;
+    margin-top: 30px;
+    transition: background-color 0.3s;
+}
+.lontong-sayur:hover {
+    background-color: #6cc0f9;
+}
+
+.bakmoy:hover {
+    background-color: #ffffff;
+}
+
+/* list cafe */
+
+.gajah {
+    padding-top: 120px;
+}
+.singa {
+    background-color: #000;
+    padding: 100px 10%;
+    text-align: center;
+}
+.jerapah {
+    font-size: 60px;
+}
+.kuda {
+    max-width: 700px;
+    margin: 20px auto 0;
+    color: #ccc;
+}
+.kucing {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 40px;
+    padding: 100px 10%;
+    background-color: #111;
+}
+.anjing {
+    display: block;
+    background-color: #000;
+    border-radius: 8px;
+    overflow: hidden;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+.anjing:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.5);
+}
+.beruang {
+    height: 250px;
+    background: url('Desain\ tanpa\ judul\ \(7\).png') no-repeat center center/cover;
+    background-color: #333;
+}
+
+.beruang2 {
+    height: 250px;
+    background: url('Desain\ tanpa\ judul\ \(9\).png') no-repeat center center/cover;
+    background-color: #333;
+}
+
+.beruang3 {
+    height: 250px;
+    background: url('Desain\ tanpa\ judul\ \(11\).png') no-repeat center center/cover;
+    background-color: #333;
+}
+
+.monyet {
+    padding: 20px;
+}
+.kelinci {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 24px;
+    margin-bottom: 5px;
+}
+.domba {
+    color: #a0a0a0;
+    font-size: 14px;
+}
+
+
+/* cafe detail */
+
+.indonesia {
+    padding-top: 120px;
+    min-height: 100vh;
+}
+.jepang {
+    padding: 80px 10%;
+}
+.amerika {
+    font-size: 60px;
+    margin-bottom: 40px;
+    text-align: center;
+}
+.inggris {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 50px;
+    align-items: flex-start;
+    background-color: #1a1a1a;
+    padding: 40px;
+    border-radius: 10px;
+}
+.perancis {
+    height: 500px;
+    background: url('Desain\ tanpa\ judul\ \(6\).png') no-repeat center center/cover;
+    border-radius: 8px;
+}
+
+.perancis2 {
+    height: 500px;
+    background: url('Desain\ tanpa\ judul\ \(8\).png') no-repeat center center/cover;
+    border-radius: 8px;
+}
+
+.perancis3 {
+    height: 500px;
+    background: url('Desain\ tanpa\ judul\ \(11\).png') no-repeat center center/cover;
+    border-radius: 8px;
+}
+
+.italia {
+    padding-top: 20px;
+}
+.spanyol {
+    font-size: 14px;
+    color: #ffcc00;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    display: block;
+    margin-bottom: 15px;
+    font-weight: 600;
+}
+.korea {
+    color: #ccc;
+    margin-bottom: 30px;
+}
+.cina {
+    color: #fff;
+    display: block;
+    margin-bottom: 10px;
+}
+.belanda {
+    display: inline-block;
+    background-color: #c6227c;
+    color: #000;
+    font-weight: bold;
+    padding: 12px 25px;
+    border-radius: 50px;
+    margin-top: 30px;
+    transition: background-color 0.3s;
+}
+.belanda:hover {
+    background-color: #fc5a9b;
+}
+
+.belanda2 {
+    display: inline-block;
+    background-color: #31db13;
+    color: #000;
+    font-weight: bold;
+    padding: 12px 25px;
+    border-radius: 50px;
+    margin-top: 30px;
+    transition: background-color 0.3s;
+}
+.belanda2:hover {
+    background-color: #90fc5a;
+}
+
+
+/* contact */
+
+.honda-motor {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding-top: 100px;
+}
+.yamaha {
+    background-color: #1a1a1a;
+    padding: 80px 50px;
+    border-radius: 10px;
+    max-width: 600px;
+    text-align: center;
+}
+.suzuki-motor {
+    padding: 20px;
+}
+.kawasaki {
+    font-size: 60px;
+    margin-bottom: 20px;
+}
+.vespa {
+    color: #ccc;
+    margin-bottom: 40px;
+}
+.ducati {
+    display: inline-block;
+    background-color: #25D366;
+    color: #000;
+    font-weight: bold;
+    padding: 15px 30px;
+    border-radius: 50px;
+    font-size: 18px;
+    transition: background-color 0.3s;
+}
+
+.ducati-diavel {
+    display: inline-block;
+    background-color: #d32573;
+    color: #000;
+    font-weight: bold;
+    padding: 15px 30px;
+    border-radius: 50px;
+    font-size: 18px;
+    transition: background-color 0.3s;
+}
+.ducati:hover {
+    background-color: #1DA851;
+}
+
+.ducati-diavel:hover{
+    background-color: rgb(139, 51, 65);
+}
+
+/* Homepage */
+
+
+.bekasi { 
+    display: inline-block;
+    background-color: #969595; 
+    color: #f1f1f1; 
+    padding: 12px 30px;
+    font-weight: 600;
+    text-transform: uppercase;
+    font-size: 0.8rem;
+    letter-spacing: 1px;
+    border-radius: 4px;
+    margin-top: 20px;
+    transition: 0.5s;
+    border: none;
+}
+
+.bekasi:hover {
+    background-color: #464646; 
+}
+
+.semarang {
+    position: relative;
+    height: 100vh;
+    background: url('Desain\ tanpa\ judul\ \(12\).png') center center / cover no-repeat;
+    display: flex;
+    align-items: center;
+    padding-top: 0;
+    padding-bottom: 0;
+    overflow: hidden;
+}
+
+.semarang::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: linear-gradient(to top, rgba(18, 18, 18, 0.7), rgba(18, 18, 18, 0.1) 50%, rgba(18, 18, 18, 0.7));
+    z-index: 1;
+}
+
+.makassar {
+    position: relative;
+    z-index: 2;
+    text-align: left;
+    max-width: 1200px;
+    margin: 0 auto;
+    width: 100%;
+    padding: 0 40px;
+}
+
+.yogyakarta {
+    font-size: 1rem;
+    letter-spacing: 4px;
+    font-weight: 300;
+    color: #969595; 
+    margin-bottom: 10px;
+    text-transform: uppercase;
+}
+
+.yogyakarta2 {
+    font-size: 15px;
+    letter-spacing: 1px;
+    font-weight: 500;
+    color: #efefef; 
+    margin-bottom: 10px;
+}
+
+
+.denpasar {
+    font-size: 6rem;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    line-height: 0.9;
+}
+
+
+
+.solo {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.solo-judul {
+    font-size: 2.5rem;
+    font-weight: 800;
+    text-transform: uppercase;
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+.malang {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); 
+    gap: 30px;
+    text-align: center;
+}
+
+.batu {
+    background-color: #121212; 
+    padding: 20px;
+    border-radius: 4px;
+}
+
+
+
+.pasuruan {
+    font-size: 1.2rem;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.probolinggo {
+    font-size: 0.9rem;
+    color: #8c8c8c; 
+}
+
+.blitar {
+    background-color: #202020;
+    overflow: hidden;
+    border-radius: 6px;
+    position: relative;
+    padding: 20px;
+}
+
+
+
+/* Galeri*/
+.jember {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.tuban {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 30px;
+    margin-top: 30px;
+}
+
+.bali {
+    background-color: #202020;
+    border-radius: 6px;
+    overflow: hidden;
+    padding-bottom: 20px;
+}
+
+.bali-gambar {
+    height: 250px;
+    background-color: #333;
+    background: url('Desain\ tanpa\ judul\ \(3\).png') center center / cover no-repeat;
+    margin-bottom: 15px;
+}
+
+.bali-gambar2 {
+    height: 250px;
+    background-color: #333;
+    background: url('Desain\ tanpa\ judul\ \(2\).png') center center / cover no-repeat;
+    margin-bottom: 15px;
+}
+
+.bali-gambar3 {
+    height: 250px;
+    background-color: #333;
+    background: url('Desain\ tanpa\ judul\ \(6\).png') center center / cover no-repeat;
+    margin-bottom: 15px;
+}
+
+.bali-gambar4 {
+    height: 250px;
+    background-color: #333;
+    background: url('Desain\ tanpa\ judul\ \(8\).png') center center / cover no-repeat;
+    margin-bottom: 15px;
+}
+
+.bali-kategori {
+    font-size: 10px;
+    color: #969595;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin: 0 20px 5px 20px;
+}
+
+.bali-judul {
+    font-size: 15px;
+    font-weight: 600;
+    margin: 0 20px;
+}
